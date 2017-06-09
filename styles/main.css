@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #ffd100;
+}
+
+form{
+  margin-top: 25px;
+  margin-left: 155px;
+  width: 75%;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+}
+
+.sign-up1{
+  padding-bottom: 20px;
+}
+.selection{
+  padding-bottom: 35px;
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.admin{
+  padding-left: 95px;
+  width: 33%;
+}
+
+.personal{
+  padding-left: 155px;
+  width: 33%;
+}
+
+.guest{
+  padding-left: 187px;
+  width: 33%;
+}
+
+.input{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.input-container{
+  padding-bottom: 45px;
+  width: 45%;
+}
+
+.input-container input{
+  width: 100%;
+}
+
+.download{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.file-container{
+  padding-left: 20px;
+}
+
+
+h5{
+  color: darkgray;
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+#name{
+  padding:10px;
+}
+#emailAddress{
+  padding:10px;
+}
+
+#password{
+  padding:10px;
+}
+
+#confirmPassword{
+  padding:10px;
+}
+
+.bottom{
+  justify-content: space-between;
+  padding-bottom: 30px;
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.button{
+border-radius: 5px;
+border: solid black;
+padding-left: 188px;
+padding-right: 216px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 20px;
+background-color: white;
+}
+
+.sign-up2{
+  margin-right: 25px;
+}
+
+#file{
+  padding-left: 10px;
+  font-weight: bold;
+}
